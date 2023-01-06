@@ -1,4 +1,4 @@
-FROM golang:1.10
+FROM golang:1.20rc2
 
 # Set the Current Working Directory inside the container
 WORKDIR $GOPATH/src/github.com/codefresh-contrib/go-sample-app
